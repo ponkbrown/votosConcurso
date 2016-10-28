@@ -12,7 +12,6 @@ class Foto(Base):
     id = Column(Integer, primary_key=True)
     Autor = Column(String(250), nullable=False)
     Estado = Column(String(250), nullable=False)
-    Autor = Column(String(250), nullable=False)
     Titulo = Column(String(250), nullable=False)
     Url = Column(String(250), nullable=False)
     votos = Column(Integer, nullable=False)
